@@ -2917,16 +2917,16 @@
         },
         {
             "name": "flaptasticapps/flaptastic",
-            "version": "7.0.2",
+            "version": "7.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FlaptasticApps/phpunit-flaptastic.git",
-                "reference": "8cf7127f5a93e62bfc5d749ce90732600d8b3a93"
+                "reference": "abcd7b21c356420f2adb6bc6d48ddef9f84d7187"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FlaptasticApps/phpunit-flaptastic/zipball/8cf7127f5a93e62bfc5d749ce90732600d8b3a93",
-                "reference": "8cf7127f5a93e62bfc5d749ce90732600d8b3a93",
+                "url": "https://api.github.com/repos/FlaptasticApps/phpunit-flaptastic/zipball/abcd7b21c356420f2adb6bc6d48ddef9f84d7187",
+                "reference": "abcd7b21c356420f2adb6bc6d48ddef9f84d7187",
                 "shasum": ""
             },
             "require": {
@@ -2939,7 +2939,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "BlockJon\\PHPUnit\\Listener\\": "src/"
+                    "FlaptasticApps\\PHPUnit\\Listener\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2952,14 +2952,14 @@
                     "homepage": "https://www.flaptastic.com/"
                 }
             ],
-            "description": "This PHPUnit extension uploads your test results to https://www.flaptastic.com/ to help you stop test flapping when run in any proper CICD system such as CircleCI, TravisCI, or Jenkins.",
-            "homepage": "https://github.com/blockjon/phpunit-flaptastic",
+            "description": "Flaptastic py.test plugin.",
+            "homepage": "https://github.com/FlaptasticApps/phpunit-flaptastic",
             "keywords": [
                 "assertion",
                 "listener",
                 "phpunit"
             ],
-            "time": "2019-01-20T08:50:26+00:00"
+            "time": "2019-04-01T03:59:22+00:00"
         },
         {
             "name": "fzaninotto/faker",
